@@ -2,6 +2,7 @@
 This is the DL workshop final project.
 
 Usage instructions:
+
 In order to run an image through the classification model, use:
 
 ```python3 demo_classifier.py image_path -type -k```, where:
