@@ -2,8 +2,8 @@
 This is the DL workshop final project.
 
 Usage instructions:
-1. In order to run an image through the classification model, use:
-2. 
+In order to run an image through the classification model, use:
+
 ```python3 demo_classifier.py image_path -type -k```, where:
 
 image_path is the path to the image to infer
@@ -13,8 +13,8 @@ Options: -type={resnet,wideresnet,vggbn,inception}. Not using this parameter wil
 
 -k (optional) use the model which was trained using top-k accuracy. Options: -k={1,3,5}
 
-2. In order to run an image through the regression model, use:
-3. 
+In order to run an image through the regression model, use:
+
 ```python3 demo_regression.py image_path -type -k -restrict```, where:
 
 image_path is the path to the image to infer
