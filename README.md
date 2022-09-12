@@ -1,6 +1,14 @@
 # geoguessr_final
 This is the DL workshop final project.
 
+NOTE: In order to use the interactive demo, you have to download the trained models, which are not present in this GitHub.
+
+They are available at https://drive.google.com/drive/mobile/folders/1jRTMVh1IncvQfJ7vhRjxo3AS_Jz6TJl6?utm_source=en&sort=13&direction=a
+
+Download the directories "1k_best", "3k_best", "5k_best", "100k_best" and "reg_best", 
+and place them in the appropriate directories. This may take some time.
+If you're not interested in the regression part, download only the first 4 directories.
+
 Usage instructions:
 
 In order to run an image through the classification model, use:
